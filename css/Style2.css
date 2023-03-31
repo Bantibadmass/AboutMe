@@ -1,0 +1,60 @@
+/* position is used to specify the position of box hear(position:relative;) then below that we can use
+four things which are (top,bottom,Left,Right) If we use top 20px it mean 20 pixxel space will be Left
+on top and so on for all. */
+
+/* display: inline-block;  By witing this we can make all the boxex into a singile line  */
+body{
+  margin: 0px;
+}
+.Red{
+  background-color:red;
+  width:100px;
+  height: 100px;
+  display: inline-block;        /*this is code of display */
+}
+.yellow{
+  background-color:#F9F54B;
+  width:100px;
+  height: 100px;
+  /* position: relative;
+  bottom: 100px;                      this is the code of position
+  Left:200px; */
+/* display: inline-block; */
+}
+.Green{
+  background-color:#183A1D;
+  width:100px;
+  height: 100px;
+display: inline-block;
+}
+
+/* Here we have used absolute */
+
+/* Here wew have created A box inside the another box and we can cahnge the place of one box inside another boxes
+by using relative and absolute is used to creat didtance with respect to another things. */
+.First{
+  background-color:red;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  bottom: :50px;
+  left:50px
+}
+.Secound{
+  background-color:#F9F54B;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:100px;
+  left: 100px;
+}
+
+/* position:FIXED;It mean position of that block is fixed into the homescreen it will never changed if you
+will scrole your screen anywhere it will never changed; */
+.Third{
+  background-color:Green;
+  width: 20px;
+  height: 20px;
+  position: fixed;    /*Here in this line we have used fixed syntex*/
+  top:0px;
+}

@@ -1,0 +1,148 @@
+/* (border:solid) it mean that we will get a border around the element written into the
+into the border */
+
+/*border-width:50px; It mean we will get the borderof 50px widder around the written
+thing. (border-width:0px 10px 20px 30px) It mean that top have 0px ,rightside will
+have 10px,downside will have 20px,Leftside will have 30px  */
+
+/* (padding:20px) It mean we will get 20px space b/w the word and the border */
+
+/* (margin:10)It mean there will be 10px space outside the box .Used for giving
+Spaces b/w them */
+
+/* (text-align:center;) This is used for making all the things into the center. */
+body{
+
+   text-align:center;             /* google font is the website where we can get oll font design*/
+   font-family:'Merriweather'sans-serif;
+  background-color: #C9EEFF;
+}
+
+/* font family is used to style the font if i have given 3,4 fonts then it mean that font will
+represent which is on the first and if that first one is not installed in the system the Secound
+one will run if Secound not then third one and so on.*/
+
+.Name
+{
+  position: relative;
+  padding-top: 100px;
+  /* border:solid 10px;
+  border-color: white;
+  width:170px;
+  padding: 20px;
+  margin: 10px;*/
+}
+/* .Red{
+  background-color:red;
+  margin-left: 240px;
+ By these margins we can shift my boxes either left or right
+  width:100px;
+  height: 100px;
+}*/
+
+.TopCloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottomCloud{
+  position: absolute;
+left: 300px;
+bottom: 80%;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento',sans-serif;
+   font-size: 375%;               /*   (100%=16px) so if we want 60px we ahve to do 6000/16=375%  (1px=100) */
+   color: #66BFBF;
+}
+
+/* 16px=100%=1em */
+
+/* if body have setting of (font-size= 60px) then it wlll be applied for whole page and if we add 60px in h1 then it will */
+/* become 60px+60Px =120px size on page so for stoping it (rem) comes  */
+
+/* if we wil do font-size=2rem  rem mean there is no any effect on h1 of their parent setting like if body have 90px setting
+then there will no addition of 90px+2rem  */
+
+h2{
+  font-family: sans-serif;
+  font-size:1.875rem;
+  color:#66BFBF;
+}
+h3{
+  color: #11999E;
+}
+.skill-row{
+   width:50%;
+   margin: 50px auto 50px auto;
+   text-align: left;
+   line-height:2;               /* This line helps in making text creating a good space b/w to lines .*/
+}
+
+ .skill{           /*  this is name of image class we can change the size of imges from html and css both place  */
+ width: 30%;        /* here it will change 25% according to its parent div  */
+
+/* float property is one of the most important when we apply it on somthing then that thing will be shifted to left link
+i have used it in the img now image will be in left of the all seentences written here. */
+
+/* float: left;            Here we used float property   */
+margin-right: 40px;
+}
+.middle-container{
+  margin: 100px 0px;
+}
+.bottom-container{
+  background-colo: white;
+}
+.About-me{
+  width :30%;
+  margin: auto;
+}
+hr{
+  border:dotted #EAF6F6 6PX;
+  border-bottom: 0px;
+  width:10%;
+  margin: 30px auto ;
+}
+.btn{
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:'Merriweather'sans-serif;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.contact-mea{
+  margin:0px 0px 50px 0px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 20px;
+}
+.footer-link:hover{         /* This line is much importent if we use hover with any class name then when we move  */
+  color: #EAF6F6;          /* My cursor to that elementon page it change its colour link */
+  margin: 5px 5px;
+}
+.Hii{
+  text-decoration: underline;   /*  By using text-decoration: we can make underlines*/
+}
